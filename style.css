@@ -9,12 +9,10 @@
   list-style: none;
 }
 .body {
-  background: rgb(255, 255, 255);
+  background: rgb(255, 254, 254);
   
 }
-.galeria {
-  
-}
+
 nav{
   display:flex;
   justify-content: center;
@@ -40,8 +38,10 @@ li {
 
 .img__fondo{
   animation: from-right 6s ease;
-  width: 15rem;
-  height: 15rem;
+  width: 450px;
+  height: 300px;
+  border: solid;
+  border-radius: 45rem 40rem 40rem 45rem;
 }
 .card-group {
   border: solid;
