@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <nav>
+    <ul class="nav__bar">
+      <li><a class="nav__link" href="index.html">Home</a></li>
+      <li><a class="nav__link" href="contacto.html">Contacto</a></li>
+      <li><a class="nav__link" href="galeria.html">Galeria</a></li>
+      <li><a class="nav__link" href="quienes.html">¿Quienes Somos?</a></li>
+      <li><a class="nav__link" href="faq.html">FAQ</a></li>
+    </ul>
+  </nav>
+  <body>
+    <section>
+      <h1>Contactanos</h1>
+      <form action="">
+        <fieldset>
+          <legend>Contacto</legend>
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="escriba aqui su nombre"
+          />
+          <br />
+          <label for="apellido">Apellido:</label>
+          <input
+            type="text"
+            name="apellido"
+            id="apellido"
+            placeholder="escriba aqui su apellido"
+          />
+
+          <div>hombre</div>
+          <input type="radio" name="sexo" value="Hombre" />
+          <div>mujer</div>
+          <input type="radio" name="sexo" value="Mujer" />
+          <div>Acepta los terminos de condiciones</div>
+          <input type="checkbox" name="acepta" value="1" required />
+          <br />
+          <select name="trabajos" id="trabajos">
+            <option value="Desarrollo Web">Desarrollo Web</option>
+            <option value="Marketing Digital">Marketing Digital</option>
+            <option value="Community Management">Community Management</option>
+          </select>
+          <br />
+          <label for="mensaje">Mensaje</label>
+          <br />
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+          <br />
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpiar formulario" />
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
