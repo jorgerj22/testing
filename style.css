@@ -12,6 +12,9 @@
   background: rgb(255, 255, 255);
   
 }
+.galeria {
+  
+}
 nav{
   display:flex;
   justify-content: center;
@@ -54,6 +57,12 @@ li {
 .carousel-item {
   height: max-content;
   width: max-content;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+ align-items: stretch;
 }
 
 
