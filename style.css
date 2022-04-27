@@ -9,7 +9,7 @@
   list-style: none;
 }
 .body {
-  background: rgb(255, 254, 254);
+  background: rgb(3, 97, 141);
   
 }
 
@@ -19,12 +19,13 @@ nav{
 }
 
 .nav__link {
+  color: black;
   display: grid;
   justify-content: center;
   list-style: none;
 }
 li {
-  display: block;
+  display: inline-block;
   border: solid;
   list-style: none;
   border-radius: 2rem;
@@ -38,8 +39,8 @@ li {
 
 .img__fondo{
   animation: from-right 6s ease;
-  width: 450px;
-  height: 300px;
+  width: 200px;
+  height: 130px;
   border: solid;
   border-radius: 45rem 40rem 40rem 45rem;
 }
@@ -48,6 +49,7 @@ li {
 }
 .card-body {
   border: double;
+  background-color: rgb(3, 97, 141);
 }
 .card-img-top {
   width: 20rem;
