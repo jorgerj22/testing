@@ -9,17 +9,17 @@
   list-style: none;
 }
 .body {
-  background: rgb(3, 97, 141);
-  
+  background: no-repeat;
+  background-image: url(./imagenes/fondoblue.jpg);
 }
 
-nav{
-  display:flex;
+nav {
+  display: flex;
   justify-content: center;
 }
 
 .nav__link {
-  color: black;
+  color: rgb(41, 201, 212);
   display: grid;
   justify-content: center;
   list-style: none;
@@ -32,12 +32,12 @@ li {
   padding: 0.6rem;
   margin: 0.5rem;
 }
-.carousel-item{
+.carousel-item {
   max-width: 100%;
   max-height: 100%;
 }
 
-.img__fondo{
+.img__fondo {
   animation: from-right 6s ease;
   width: 200px;
   height: 130px;
@@ -48,8 +48,9 @@ li {
   border: solid;
 }
 .card-body {
+  color: blanchedalmond;
   border: double;
-  background-color: rgb(3, 97, 141);
+  background-image: url(./imagenes/fondoblue.jpg);
 }
 .card-img-top {
   width: 20rem;
@@ -64,18 +65,25 @@ li {
 .card {
   display: flex;
   justify-content: center;
- align-items: stretch;
+  align-items: stretch;
 }
 
+.produto__img {
+  border: solid;
+  width: 300px;
+  height: 300px;
+}
+.containerProdutos {
+  display: inline-block;
+}
 
-@keyframes from-right{
-  0%{
+@keyframes from-right {
+  0% {
     opacity: 0;
     transform: translateX(80px);
   }
-100% {
- opacity: 1;
- transform: translateX(0px);
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
-}
-
