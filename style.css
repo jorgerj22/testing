@@ -93,11 +93,27 @@ li {
   direction: rtl;
 }
 
+.video-responsive {
+  overflow:hidden;
+  padding-bottom:400px; 
+  position:relative;
+  height:0;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:95%;
+  width:95%;
+  position:absolute;
+}
+
+
 .iframe{
   display: flex;
   border: solid;
   border-radius: 0.9rem 0.9rem 0.9rem 0.9rem ;
   overflow: hidden;
+  
 }
 .textq {
   color: #F8A527;
