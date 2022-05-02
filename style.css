@@ -8,6 +8,7 @@
   justify-content: center;
   list-style: none;
 }
+
 .body {
   background: no-repeat;
   background-image: url(./imagenes/fondoblue.jpg);
@@ -20,18 +21,22 @@
 nav {
   display: flex;
   justify-content: center;
+  
+  
 }
 
 .nav__link {
   color: rgb(41, 201, 212);
   display: grid;
   justify-content: center;
-  list-style: none;
+  text-decoration: none;
+  
 }
+
 li {
   display: inline-block;
   border: solid;
-  list-style: none;
+  text-decoration: none;
   border-radius: 2rem;
   padding: 0.6rem;
   margin: 0.5rem;
